@@ -1,0 +1,7 @@
+include ':visanet-lib-lite-release-2.1.5'
+include ':TMXProfilingConnections-6.0-138'
+include ':TMXProfiling-6.0-138'
+include ':cardinalmobilesdk-2.2.1-2'
+rootProject.name = 'ReactNativePagoApp'
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'

@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('visanet-lib-lite-release-2.1.5.aar'))
